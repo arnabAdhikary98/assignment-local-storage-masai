@@ -1,1 +1,89 @@
 /* Fill CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #ae38f8;
+  }
+  div{
+    border: 2px solid brown;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 2%;
+  }
+
+  form{
+    height: 100%;
+    width: 30%;
+    padding: 2px 6px;
+  }
+  input, select{
+    padding: 2px;
+    height: 8%;
+    width: 90%;
+  }
+  #submit-btn{
+    border-radius: 20px;
+  }
+  label{
+    font-size: 20px;
+    color: #000000;
+    padding-left: 4px;
+  }
+  #submit-btn{
+    background-color: #ae38f8;
+    color: white;
+    padding: 2px 6px;
+    margin-top: 20px;
+  }
+    table{
+    height: 100%;
+    width: 70%;
+    padding: 2px;
+  }
+  th{
+    background-color: #ae38f8;
+    color: white;
+    padding: 2px 4px;
+  }
+  td{
+    padding: 2px 4px;
+    text-align: center;
+  }
+th,td{
+    box-shadow: 1px 2px 2px rgb(188, 146, 146);
+    height: 20px;
+    width: 40px;
+}
+#del-btn{
+    border-style: none;
+    box-shadow: 1px 1px 3px #7e6262;
+    padding: 3px;
+    border-radius: 2px;
+}
